@@ -1,5 +1,5 @@
 package com.enjoy.cap2.config;
-
+ 
 import java.io.IOException;
 
 import org.springframework.core.type.AnnotationMetadata;
@@ -11,7 +11,6 @@ import org.springframework.core.type.filter.TypeFilter;
 public class CustomTypeFilter implements TypeFilter{
 
 	private ClassMetadata classMetadata;
-
 	//MetadataReader:读取到当前正在扫描类的信息
 	//MetadataReaderFactory：可以获取其他任何类的信息
 	@Override
