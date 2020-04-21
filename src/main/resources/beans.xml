@@ -7,7 +7,6 @@
        <bean id="person" class= "com.enjoy.cap1.Person">
        <property name="name" value="kyle"></property>
         <property name="age" value="22"></property>
-       
        </bean>
         
 </beans> 
